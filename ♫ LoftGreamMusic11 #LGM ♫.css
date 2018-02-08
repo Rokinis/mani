@@ -225,3 +225,8 @@ background: #FF0000;
   -o-animation: fadein 0.3s;
   animation: fadein 0.3s;
 }
+
+}
+.description.panel .value a[href*=".json"] {
+    display: none;
+}
