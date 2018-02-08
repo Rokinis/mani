@@ -1,0 +1,624 @@
+/* Created by: Nothing */
+
+}
+#room-name, #room-host {
+	left: 95px;
+}
+.room-background {
+	background: url(https://cdn.radiant.dj/rcs/bg/10.png) 0 0 / 1600px 900px no-repeat !important;
+}
+#playback .background img {
+	display: none;
+}
+#playback .background {
+	background: url(https://dl.dropboxusercontent.com/s/59fnfbk24s8l6zm/playback.png) 0 0 / cover no-repeat;
+
+	width: 874px; height: 329px;
+	left: -196px; top: 0;
+}
+
+#chat .badge-box,
+.buttons .thumb .background {
+	background: none;
+}
+/* Adding some transparency */
+#dj-button,
+.bottom, #dj-button .left,
+#footer, .app-header, .app-right, .app-right .friends, #footer-user .info,
+#playlist-panel, #search, #playlist-menu,
+.media-list .selected .actions, .media-list .actions,
+#user-rollover, #user-rollover .info, .thumb .background,
+#the-user-profile, #user-profile, #user-store, #user-friends, #user-history, #user-communities, #user-settings, #user-shop, #user-inventory,
+#user-view, #user-menu,
+#user-menu .item,
+#woot-rs, #grab-rs, #meh-rs,
+#woot-rs .title, #grab-rs .title, #meh-rs .title,
+#app-menu, #app-menu .list {
+	background: rgba(0,0,0,.5) !important;
+}
+/*less transparent things*/
+#playlist-panel,
+#playlist-menu,
+#room-settings,
+#room-settings-menu {
+	background: rgba(0,0,0,.8) !important;
+}
+
+/* medium dark */
+.back,
+.row.selected,
+#user-menu .selected,
+#user-menu .item:hover,
+.tab-menu button,
+.experience .xp .bar,
+.user-content.profile .notifications .row,
+#app-menu:hover, #app-menu.open, #rs-skip-button, #history-button,
+#app-menu .list .item:hover {
+	background: rgba(100,100,100,.5) !important;
+}
+#app-menu .android-badge:hover,
+#app-menu .iphone-badge:hover {
+	background-color: rgba(100,100,100,.5) !important;
+}
+/* medium grey */
+#user-lists .list .user:hover,
+.buttons .button:hover,
+.actions .action:hover,
+.back:hover,
+.tab-menu button:hover,
+#room-settings-menu .item.selected,
+#user-menu .count, .requests .count, .buttons .count, .request-count, .friends .header i,
+.header-panel-button.selected {
+	background: rgba(150,150,150,.5) !important;
+}
+/* grey */
+.tab-menu button.selected {
+	background: rgba(200,200,200,.5) !important;
+}
+
+/*blue color*/
+#playlist-activate-button span,
+#playlist-menu .menu .row .count{
+	color: #6ac1fe;
+}
+#user-lists .header .button.staff.selected {
+	border-bottom: 1px solid #6ac1fe;
+}
+#playlist-activate-button {
+	background: #233d4c;
+}
+
+#playback-controls {
+	-webkit-filter: grayscale(20%);
+	filter: grayscale(20%);
+}
+
+/* App menu lower button */
+#chat .delete-button, .rcs-delete,
+#app-menu .logout, #rcs-unload {
+	background: rgba(150,50,50,.2) !important;
+	border: 1px solid rgba(250,50,50,.2) !important;
+}
+#chat .delete-button:hover, .rcs-delete:hover,
+#app-menu .logout:hover, #rcs-unload:hover {
+	background: rgba(150,50,50,.8) !important;
+	border: 1px solid rgba(250,50,50,.8) !important;
+}
+
+/* Chat */
+#chat-input {
+	transition: all .25s linear;
+	background: none !important;
+	box-shadow:
+		inset 0 0 0 20px rgba(0,0,0,.5),
+		inset 0 0 0 1px #000,
+		0 0 0 #000
+	!important;
+}
+#chat .focused {
+	box-shadow:
+		inset 0 0 0 20px rgba(30,30,30,.8),
+		inset 0 0 0 1px #EEE,
+		0 0 5px #EEE
+	!important;
+}
+#chat .cm:nth-child(odd) {
+	background: null;
+}
+#chat .cm:nth-child(even) {
+	background: null;
+}
+#chat .cm {
+	animation: fadein 0.2s;
+}
+#chat .cm {
+	background: linear-gradient(hsla(220,10%,20%,0.5), hsla(220,10%,15%,0.5));
+	box-shadow: inset 1px 1px 0 hsla(220,10%,20%,0.8);
+}
+#chat .cm.message:nth-child(odd) {
+	background: linear-gradient(hsla(220,10%,10%,0.5), hsla(220,10%,12%,0.5));
+	box-shadow: inset 1px 1px 0 hsla(220,10%,5%,0.8);
+	color: #ccc;
+}
+#chat .cm.message .timestamp {
+	color: #818285;
+}
+#chat .cm .badge-box {
+	background: transparent !important;
+}
+#chat .cm .delete-button {
+	border-radius: 4px;
+	background: linear-gradient(hsl(0,0%,30%), hsl(0,0%,40%));
+	box-shadow: inset 0 0 0 1px hsl(0,0%,50%);
+}
+#chat .cm .delete-button:hover {
+	background: linear-gradient(hsl(5,100%,60%), hsl(5,100%,50%));
+	box-shadow: 0 0 10px hsl(5,100%,50%);
+	color: #000;
+}
+}
+*/
+
+#woot:before {
+    content: url(*****************);
+    position: absolute;
+    top: 0px;
+    left: 265px;
+}
+
+.votes-rs {
+    top: -18px;
+    z-index: -1 !important;
+    border-bottom: none !important;
+    background: -webkit-linear-gradient(#000, transparent) !important;
+    background: -o-linear-gradient(#000, transparent) !important;
+    background: linear-gradient(#000, transparent) !important;
+}
+
+.votes-rs .voteslist {
+	height: 160px;
+}
+
+.voteslist p {
+	padding: 3px 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+
+.icon-woot {
+    background-image: url(https://i.imgur.com/qeXiFij.png);
+    background-position: 0px 0px;
+}
+#woot.crowd-response.disabled .icon:before,
+#woot.crowd-response.selected .icon:before {
+    content: url(https://i.imgur.com/CmxWJdw.png);
+    position: absolute;
+    right: 0px;
+    padding: 0 1px;
+}
+#woot.crowd-response .icon:before {
+    content: url(https://i.imgur.com/qeXiFij.png);
+    position: absolute;
+    right: 0px;
+    padding: 0 0px;
+}
+#woot:hover .icon:before {
+    -webkit-animation-name: woot;
+    animation-name: woot;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+#woot .icon:before {
+    opacity: 0;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes woot {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-1em);
+    transform: translateY(-1em);
+  }
+}
+#grab.crowd-response:not(.selected) .icon:after {
+    content: url(https://i.imgur.com/rvsoRRV.png);
+    position: absolute;
+    right: 0px;
+    padding: 1px 1px;
+}
+#grab.crowd-response.disabled .icon:after {
+    content: url(https://i.imgur.com/rvsoRRV.png);
+    position: absolute;
+    right: 0px;
+    padding: 1px 0px;
+}
+#grab:hover .icon:after {
+    -webkit-animation-name: grab;
+    animation-name: grab;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+#grab .icon:after {
+    opacity: 0;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes grab {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5) translateZ(0);
+    transform: scale(1.5) translateZ(0);
+  }
+}
+#meh.crowd-response.disabled .icon:after,
+#meh.crowd-response.selected .icon:after {
+    content: url(https://i.imgur.com/DZxHN2F.png);
+    position: absolute;
+    right: 0px;
+    padding: 0 1px;
+}
+#meh.crowd-response .icon:after {
+    content: url(https://i.imgur.com/BzMZRWT.png);
+    position: absolute;
+    right: 0px;
+    padding: 0 1px;
+}
+#meh:hover .icon:after {
+    -webkit-animation-name: meh;
+    animation-name: meh;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+#meh .icon:after {
+    opacity: 0;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes meh {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(1em);
+    transform: translateY(1em);
+  }
+}
+
+#woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+#woot,
+#grab,
+#meh {
+    background-color: rgba(0, 0, 0, 0.20) !important;
+}
+#vote .crowd-response.disabled .bottom {
+    background: rgba(0, 0, 0, 0.28) !important;
+}
+
+#woot .bottom,
+#grab .bottom,
+#meh .bottom {
+    background-color: transparent !important;
+}
+#vote >#woot.crowd-response,
+#vote >#woot.crowd-response .bottom {
+    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+    -moz-box-shadow:        inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+    -o-box-shadow:          inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+    box-shadow:             inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+}
+#vote >#woot.crowd-response.selected .bottom,
+#vote >#woot.crowd-response:hover .bottom {
+    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+    -moz-box-shadow:        inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+    -o-box-shadow:          inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+    box-shadow:             inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+}
+#vote >#woot.crowd-response.selected {
+    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+    -moz-box-shadow:        inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+    -o-box-shadow:          inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+    box-shadow:             inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+}
+#vote >#grab.crowd-response .bottom,
+#vote >#grab.crowd-response .bottom {
+    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+    -moz-box-shadow:        inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+    -o-box-shadow:          inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+    box-shadow:             inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+}
+#vote >#grab.crowd-response.selected .bottom,
+#vote >#grab.crowd-response:hover .bottom {
+    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+    -moz-box-shadow:        inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+    -o-box-shadow:          inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+    box-shadow:             inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+}
+#vote >#grab.crowd-response.selected {
+    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+    -moz-box-shadow:        inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+    -o-box-shadow:          inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+    box-shadow:             inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+}
+#vote >#meh.crowd-response,
+#vote >#meh.crowd-response .bottom {
+    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+    -moz-box-shadow:        inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+    -o-box-shadow:          inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+    box-shadow:             inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+}
+#vote >#meh.crowd-response.selected .bottom,
+#vote >#meh.crowd-response:hover .bottom {
+    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+    -moz-box-shadow:        inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+    -o-box-shadow:          inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+    box-shadow:             inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+}
+#vote >#meh.crowd-response.selected {
+    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+    -moz-box-shadow:        inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+    -o-box-shadow:          inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+    box-shadow:             inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+}
+#chat .un,
+#vote,
+#woot,
+#woot .top,
+#woot .bottom,
+#grab,
+#grab .top,
+#grab .bottom,
+#meh,
+#meh .top,
+#meh .bottom {
+    -webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
+}
+}/*@@@@@(HOST)@@@@@*/
+.icon-chat-host {
+	background: url(https://i.imgur.com/O7Eb30Z.png);
+	background-position: 2px 0 !important;
+}
+.icon-chat-host + span,
+#user-lists .group.host ~ .user span,
+#dialog-user-role .role-menu .menu ul .host span {
+	color: #ffffff !important;
+}
+#user-lists .group.host {
+	color: #ffffff;
+	background: linear-gradient(to right, hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)) !important;
+	top: 1px;
+}
+/*@@@@@(CO-HOSTS)@@@@@*/
+.icon-chat-cohost {
+	background: url(https://i.imgur.com/O7Eb30Z.png);
+	background-position: 2px 0 !important;
+}
+.icon-chat-cohost + span,
+#dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
+	color: #ffffff !important;
+}
+}/*@@@@@(MANAGER)@@@@@*/
+.icon-chat-manager {
+	background: url(https://i.imgur.com/LKl1TjV.png);
+	background-position: 2px 0 !important;
+}
+.icon-chat-manager + span,
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+	color: #990000 !important;
+}
+#user-lists .group.manager {
+	color: #990000;
+	background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important;
+}/*@@@@@(BOUNCER)@@@@@*/
+.icon-chat-bouncer {
+	background: url(https://i.imgur.com/8plo73x.png);
+	background-position: 1px 0 !important;
+}
+.icon-chat-bouncer + span,
+#user-lists .group.bouncer ~ .user span,
+#dialog-user-role .role-menu .menu ul .bouncer span {
+	color: #FACC2E !important;
+}
+#user-lists .group.bouncer {
+	color: #FACC2E;
+	background: linear-gradient(to right, hsla(52, 100%, 40%, 0.5), hsla(52, 100%, 50%, 0.5)) !important;
+}
+}/*@@@@@(DJ)@@@@@*/
+.icon-chat-dj {
+	background: url(https://i.imgur.com/KJC6J8C.png);
+	background-position: 0 0 !important;
+}
+#user-lists .group.dj {
+	color: #b3b3b3;
+	background: linear-gradient(to right, hsla(0, 0%, 19%, 0.65), hsla(0, 0%, 19%, 0.65)) !important;
+}
+.icon-chat-dj + span,
+#user-lists .group.dj ~ .user span,
+#dialog-user-role .role-menu .menu ul .dj span {
+	color: #b3b3b3 !important;
+}
+
+/*tooltips*/
+#tooltip span, #tooltip.blue span {
+	background: rgba(150,150,150,.8) !important;
+}
+#tooltip .corner {
+	border-top: 10px solid transparent !important;
+	border-right: 0px solid transparent !important;
+	border-left: 10px solid rgba(150,150,150,.8) !important;
+	border-bottom: 10px solid transparent !important;
+}
+#tooltip.right .corner {
+	border-top: 10px solid rgba(150,150,150,.8) !important;
+	border-right: 10px solid rgba(150,150,150,.8) !important;
+	border-left: 10px solid transparent !important;
+	border-bottom: 10px solid transparent !important;
+}
+
+
+/* Big Buttons */
+#room-settings a:hover, #chat a:hover {
+	color: hsl(200,100%,55%) !important;
+	text-shadow: 0 0 5px;
+}
+#room-settings .general-settings button,
+#room-settings .general-settings .option.enabled button.off {
+	background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%)) !important;
+	box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+#room-settings .general-settings button:hover,
+#room-settings .general-settings .option.enabled button.off:hover {
+	background: linear-gradient(hsl(210,10%,30%), hsl(220,10%,20%)) !important;
+}
+#room-settings .general-settings button.off,
+#room-settings .general-settings .option.enabled button.on,
+.tab-menu button:hover, .dropdown:hover {
+	background: linear-gradient(hsl(210,30%,40%), hsl(210,30%,30%)) !important;
+}
+
+/* User settings */
+.tab-menu button, #user-settings .container button, .subscribe-button, .dropdown, #dialog-user-role .role-menu {
+	background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%));
+	box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+#user-settings .container button:hover {
+	background: linear-gradient(hsl(0,40%,30%), hsl(0,40%,20%));
+}
+.subscribe-button:hover {
+	background: linear-gradient(hsl(40,40%,30%), hsl(40,40%,20%));
+}
+.dropdown dt {
+	box-shadow: inset -39px 0 0 hsla(0,0%,100%,.15) !important;
+}
+.dropdown.open, .dropdown.open dt, #dialog-user-role .role-menu:hover {
+	font-weight: normal;
+}
+.dropdown dt .level {
+	color: #eee !important;
+}
+.dropdown dd span {
+	color: #AAA;
+}
+.dropdown dd .row:hover span {
+	color: #FFF;
+}
+.dropdown dd, #chat-suggestion, #dialog-user-role .role-menu .menu ul li, #search-suggestion li, #dialog-restricted-media .row.selected {
+	background: hsla(210,10%,10%,.8);
+}
+#dialog-user-role .role-menu .menu ul li {
+	border-color: hsla(210,10%,8%,.8);
+}
+.dropdown dd .row:hover,
+.chat-suggestion-item[style='background: rgb(45, 49, 58);'],
+#search-suggestion .search-suggestion-item.selected,
+#dialog-restricted-media .row.selected,
+#dialog-user-role .role-menu .menu ul li:hover {
+	background: linear-gradient(hsla(210,10%,20%,.8), hsla(210,10%,15%,.8)) !important;
+}
+
+.icon.icon-check-purple,
+.icon.icon-next-track,
+.icon.icon-check-blue,
+.icon.icon-check-circle,
+.icon.icon-chat,
+.icon.icon-population,
+.icon.icon-waitlist,
+#chat-header,
+#playlist-button {
+	filter: grayscale(1);
+}
+#user-menu .item:hover i {
+	filter: grayscale(2) brightness(200%);
+}
+
+
+/* Vote buttons */
+#vote {
+	box-shadow: 0 0 10px #000;
+}
+#app #vote .bottom {
+	background: transparent !important;
+}
+#vote .selected,
+#vote .selected .value {
+	font-weight: bold;
+	color: #FFF;
+}
+#woot, #grab, #meh {
+	background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5)) !important;
+}
+#woot.selected, #woot-rs .title, #woot-rs-list::-webkit-scrollbar-thumb {
+	background: linear-gradient(hsla(90,50%,50%,.8), hsla(90,50%,40%,.8)) !important;
+}
+#grab.selected, #grab-rs .title, #grab-rs-list::-webkit-scrollbar-thumb {
+	background: linear-gradient(hsla(270,50%,50%,.8), hsla(265,50%,40%,.8)) !important;
+}
+#meh.selected, #meh-rs .title, #meh-rs-list::-webkit-scrollbar-thumb {
+	background: linear-gradient(hsla(5,50%,50%,.8), hsla(0,50%,40%,.8)) !important;
+}
+/* Grab menu */
+.pop-menu, .pop-menu .bar {
+	background: transparent;
+}
+.pop-menu .bar {
+	background: linear-gradient(hsla(260,50%,50%,.8), hsla(260,50%,30%,.8));
+}
+.pop-menu .bar-divider {
+	background: linear-gradient(hsla(0,0%,90%,.8), hsla(0,0%,60%,.8));
+}
+.pop-menu .menu ul {
+	background: hsla(260,5%,7%,.8);
+}
+.pop-menu .menu ul i + span {
+	font-weight: bold;
+}
+.pop-menu .menu ul li:hover {
+	background: linear-gradient(hsla(260,50%,50%,.2), hsla(260,50%,30%,.2));;
+}
+.pop-menu .menu ul .create:hover {
+	background: linear-gradient(hsl(260,40%,50%), hsl(260,40%,30%));
+}
+.pop-menu .menu::-webkit-scrollbar {
+	background: hsl(260,10%,20%) !important;
+	box-shadow: inset 0 0 10px #000;
+	width: 10px;
+}
+.pop-menu .menu::-webkit-scrollbar-thumb {
+	background: linear-gradient(to right, hsl(260,40%,60%), hsl(260,40%,40%));
+	box-shadow: inset 0 0 5px hsla(0,0%,100%,.3);
+}
+.description.panel .value a[href*=".json"] {
+    display: none;
+}
