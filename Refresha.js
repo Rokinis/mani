@@ -1989,7 +1989,7 @@
             },
 
             botnameCommand: {
-                command: 'botname',
+                command: 'pakeisti',
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function(chat, cmd) {
@@ -2012,7 +2012,7 @@
             },
 
             clearchatCommand: {
-                command: 'clearchat',
+                command: 'istrintit',
                 rank: 'manager',
                 type: 'exact',
                 functionality: function(chat, cmd) {
