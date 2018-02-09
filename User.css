@@ -9,7 +9,7 @@
         background-size:        cover;
 }
 
-#user-rollover.id-4734845 .info .badge-box .bdg {
+#user-rollover.id-10393534 .info .badge-box .bdg {
 	background: url(https://image.prntscr.com/image/aL6MIvM6RuG9h5cA1PWAGg.png)
         center no-repeat!important;
 }
@@ -23,12 +23,12 @@
  /* Aw, Maik! */
 #chat-messages .id-5485122 .badge-box i.bdg
 {
-        background-image:       url('');
+        background-image:       url('https://rcs.radiant.dj/img/plugdj/badges/bdg-ba.png');
         background-size:        cover;
 }
 
-#user-rollover.id-28631750 .info .badge-box .bdg {
-	background: url()
+#user-rollover.id-5485122 .info .badge-box .bdg {
+	background: url(https://rcs.radiant.dj/img/plugdj/badges/bdg-ba.png)
         center no-repeat!important;
 }
 
