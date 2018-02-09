@@ -194,7 +194,7 @@
  └————————————————————┘
 */
 .icon-chat-host {
-	background: url(http://i.imgur.com/F6INUSi.png) 0 0 / 15px no-repeat !important;
+	background: url() 0 0 / 15px no-repeat !important;
 }
 .icon-chat-host ~ span,
 #dialog-user-role .role-menu .menu ul .host span {
