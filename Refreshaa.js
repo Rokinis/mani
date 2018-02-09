@@ -2613,7 +2613,7 @@
             },
 
             joinCommand: {
-                command: 'join',
+                command: 'play',
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -2713,7 +2713,7 @@
             },
 
             killCommand: {
-                command: 'kill',
+                command: 'isjungti',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -2732,7 +2732,7 @@
             },
 
             languageCommand: {
-                command: 'language',
+                command: 'kalba',
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function(chat, cmd) {
