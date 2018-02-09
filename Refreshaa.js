@@ -1272,7 +1272,7 @@
                 if ((msg.indexOf(joinedroulette) > -1 || msg.indexOf(leftroulette) > -1) && chat.uid === basicBot.loggedInID) {
                     setTimeout(function(id) {
                         API.moderateDeleteChat(id);
-                    }, 5 * 1000, chat.cid);
+                    }, 1 * 1000, chat.cid);
                     return true;
                 }
                 return false;
@@ -3225,7 +3225,7 @@
             },
 
             reloadCommand: {
-                command: 'reload',
+                command: 'perkrauti',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -3305,7 +3305,7 @@
             },
 
             rouletteCommand: {
-                command: 'roulette',
+                command: 'zaidimas',
                 rank: 'mod',
                 type: 'exact',
                 functionality: function(chat, cmd) {
